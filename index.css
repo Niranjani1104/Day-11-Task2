@@ -1,0 +1,173 @@
+.Home{
+    background: #000;
+    color: white;
+    text-align: center;
+    height: 35em;
+    width: 100%;
+}
+#head{
+    padding-left: 10px;
+    color: white;
+}
+.name{
+    padding-top: 180px;
+}
+.column {
+    float: left;
+    width: 50%;
+    padding: 100px 150px;
+    height: 300px;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+    height: 20em;
+    width: 100%;
+}
+.image{
+    height: 450px;
+}
+.buttons{
+ padding: 20px 650px;
+}
+.quote{
+    background-color: #000;
+    color: white;
+    text-align: center;
+    height: 100px;
+    width: 100%;
+    padding-top: 30px;
+}
+.section4{
+    padding: 30px;
+    h2 {
+        width: 100%; 
+        text-align: center; 
+        border-bottom: 1px solid #bbb;
+        line-height: 0.1em;
+        margin: 10px 0 20px; 
+     } 
+     
+     h2 span { 
+         background:#fff; 
+         padding:0 10px; 
+     }
+}
+
+#education h1{
+    text-align: center;
+    transform: translate(0,130px);
+    width: auto;
+    font-family: cursive;
+}
+.edu{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    font-family: "Roboto", sans-serif;
+}
+.box{
+    width: 70%;
+    min-height: 250px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.box .card{
+    margin: 0 auto;
+    display: block;
+    height: 200px;
+    width: 250px;
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+    transition: all ease 0.3s;
+    text-align: left;
+    border: 1px solid black;
+    padding: 20px;
+}
+/* .color1{
+    background: #d6d172!important;
+}
+.color2{
+    background: #de8b70!important;
+} */
+/* .box .card:hover{
+    border-radius: 5px;
+    height: 400px;
+    width: 300px;
+} */
+/* .box .card h2{
+    border-radius: 50%;
+    margin: 20px auto;
+    display: block;
+    width: 160px;
+    color: #000;
+}
+.box .card img{
+    border-radius: 5%;
+    margin: 20px auto;
+    display: block;
+    width: 160px;
+}
+
+.box .card p{
+    color: #000;
+    font-size: 18px;
+    font-weight: normal;
+    margin: 0;
+    padding: 0 15px 25px 15px;
+} */
+
+.poems{
+    float: left;
+    width: 50%;
+    padding: 100px 15px;
+    height: 300px;
+    /* padding: 30px; */
+    h4 {
+        width: 100%; 
+        text-align: center; 
+        border-bottom: 1px solid #bbb; 
+        line-height: 0.1em;
+        margin: 10px 0 20px;
+     } 
+     
+     h4 span { 
+         background:#fff; 
+         padding:0px; 
+     }
+}
+.list{
+    padding: 50px;
+ }
+ .footer{
+    background: #000;
+    color: #fff;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+ }
+ .container{
+    max-width: px;
+    margin: auto;
+ }
+ .row{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    padding-top: 50px;
+    padding-left: 200px;
+ }
+ .footer-col{
+    width: 25%;
+    padding: 0 30px;
+    text-align: left;
+ }
+ 
